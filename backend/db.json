@@ -1,0 +1,94 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Do something nice for someone you care about",
+      "status": "inprogress",
+      "userId": 152
+    },
+    {
+      "id": "2",
+      "title": "Memorize a poem",
+      "status": "done",
+      "userId": 13
+    },
+    {
+      "id": "3",
+      "title": "Watch a classic movie",
+      "status": "done",
+      "userId": 68
+    },
+    {
+      "id": "4",
+      "title": "Watch a documentary",
+      "status": "done",
+      "userId": 84
+    },
+    {
+      "id": "5",
+      "title": "Invest in cryptocurrency",
+      "status": "todo",
+      "userId": 163
+    },
+    {
+      "id": "6",
+      "title": "Contribute code or a monetary donation to an open-source software project",
+      "status": "done",
+      "userId": 69
+    },
+    {
+      "id": "7",
+      "title": "Solve a Rubik's cube",
+      "status": "inprogress",
+      "userId": 76
+    },
+    {
+      "id": "8",
+      "title": "Bake pastries for yourself and neighbor",
+      "status": "done",
+      "userId": 198
+    },
+    {
+      "id": "9",
+      "title": "Go see a Broadway production",
+      "status": "done",
+      "userId": 7
+    },
+    {
+      "id": "10",
+      "title": "Write a thank you letter to an influential person in your life",
+      "status": "todo",
+      "userId": 9
+    },
+    {
+      "id": "11",
+      "title": "Invite some friends over for a game night",
+      "status": "done",
+      "userId": 104
+    },
+    {
+      "id": "12",
+      "title": "Have a football scrimmage with some friends",
+      "status": "todo",
+      "userId": 32
+    },
+    {
+      "id": "13",
+      "title": "Text a friend you haven't talked to in a long time",
+      "status": "done",
+      "userId": 2
+    },
+    {
+      "id": "14",
+      "title": "Organize pantry",
+      "status": "done",
+      "userId": 46
+    },
+    {
+      "id": "15",
+      "title": "Buy a new house decoration",
+      "status": "done",
+      "userId": 105
+    }
+  ]
+}

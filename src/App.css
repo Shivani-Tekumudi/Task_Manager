@@ -1,0 +1,149 @@
+.logo{
+  color: #091819;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
+}
+.primary-btn {
+  background-color: #006766;
+  border: #006766;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 9px 20px;
+  border-radius: 14px;
+}
+
+.btn-icon {
+  background: #FFBC01;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 23px;
+  margin-right: 10px;
+  padding: 0px 2px;
+}
+.primary-btn:hover, .primary-btn:focus{
+  background-color:#006b85 !important
+}
+.bg-white{
+  background-color:  #fff;
+}
+.border-radius-18{
+  border-radius: 18px;
+}
+
+.bg-custom-light{
+  background-color: #EFF8F7;
+}
+.boardcol-header{
+  font-size: 20px;
+    font-weight: bold;
+    padding-top: 13px;
+
+}
+.board-shadow{
+  box-shadow: 0 0.5px 5px rgba(0, 0, 0, 0.15);
+}
+.card-title{
+  font-weight: 600;
+  font-size: 18px;
+  color: #091819;
+}
+.status-btn-high{
+  background: #ffced7;
+  padding: 5px 18px;
+  border-radius: 20px;
+  /* font-weight: 400; */
+  color: #54131d;
+  border: 1px solid #54131d;
+  text-transform: capitalize !important
+}
+
+.status-btn-todo{
+  background: #00aaaa21;
+  padding: 5px 18px;
+  border-radius: 20px;
+  /* font-weight: 400; */
+  color: #00aaaa;
+  border: 1px solid #00aaaa;
+  text-transform: capitalize !important;
+}
+.status-btn-inprogress{
+  background: #ffe2a587;
+  padding: 5px 18px;
+  border-radius: 20px;
+  /* font-weight: 400; */
+  color: #ce9418;
+  border: 1px solid #ce9418;
+  text-transform: capitalize !important;
+}
+.status-btn-done{
+  background: #21a15b63;
+    padding: 5px 18px;
+    border-radius: 20px;
+    /* font-weight: 400; */
+    color: #006766;
+    border: 1px solid #006766;
+    text-transform: capitalize !important;
+}
+
+
+
+
+.taskcard{
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.15);
+
+}
+.custom-row {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+  padding-bottom: 15px; /* Add some padding for scrollbar visibility */
+  margin-left: -10px; /* Adjust for card margin */
+  margin-right: -10px; /* Adjust for card margin */
+}
+.bg-todo{
+background-color: #00AAAA;
+}
+.bg-inprogress{
+background-color: #FEB720;
+}
+.bg-done{
+background-color: #006766;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles */
+  .primary-btn {
+font-size: 16px !important;
+  }
+
+  .btn-icon {
+    font-size: 18px;
+  }
+  .logo{
+    font-size: 20px;
+  }
+  
+.col-wrapper {
+  flex: 0 0 auto; /* Don't grow or shrink, maintain width */
+  width: 300px; /* Set your desired minimum card width */
+  margin-left: 10px; /* Add gap between cards */
+  margin-right: 10px; /* Add gap between cards */
+}
+  
+  }
+
+  
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles */
+  .primary-btn {
+  }
+  .col-wrapper {
+    flex: 0 0 auto; /* Don't grow or shrink, maintain width */
+    width: 300px; /* Set your desired minimum card width */
+    margin-left: 10px; /* Add gap between cards */
+    margin-right: 10px; /* Add gap between cards */
+  }
+}
